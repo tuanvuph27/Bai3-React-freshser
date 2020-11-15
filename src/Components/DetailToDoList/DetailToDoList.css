@@ -1,0 +1,46 @@
+.list_detail_item {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 75%;
+  border-radius: 10px;
+  overflow: auto;
+  padding: 10px;
+}
+.detail_item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(209, 203, 203);
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  width: 95%;
+  color: rgb(59, 64, 70);
+}
+.detail_content {
+  width: 80%;
+  height: auto;
+  font-size: 2rem;
+}
+.detail_content > p {
+  display: block;
+  margin: 0;
+  clear: both;
+}
+.delete_item_button {
+  background-color: var(--background);
+  border: none;
+  width: 10%;
+}
+.update-icon {
+  color: rgb(21, 86, 182);
+  font-size: 2rem;
+}
+.remove-icon {
+  color: red;
+  font-size: 2rem;
+}
+.update_item_button {
+  background-color: var(--background);
+  border: none;
+  width: 10%;
+}

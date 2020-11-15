@@ -1,0 +1,39 @@
+.list_folder {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: #767979;
+  width: 90%;
+  max-height: 90%;
+  padding: 10px;
+  overflow: auto;
+}
+.folder_item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
+  width: 100%;
+  margin: 10px 0 10px 0;
+  color: rgb(46, 50, 53);
+}
+.icon_each_folder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.icon_list {
+  color: white;
+}
+.folder_name {
+  width: 75%;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  font-size: 2rem;
+}
+.folder_name:hover {
+  cursor: pointer;
+}
