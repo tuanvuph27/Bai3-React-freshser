@@ -3,7 +3,7 @@ import React from "react";
 export const toDoLists = [
   {
     id: 0,
-    folderName: "To Do Listt",
+    folderName: "To Do List",
     detail: [
       {
         id: 0,
